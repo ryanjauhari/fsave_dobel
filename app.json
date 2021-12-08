@@ -1,0 +1,51 @@
+
+{
+  "name": "TG File SharingMod Bot",
+  "description": "file sharing bot store posts and it can access by special links",
+  "keywords": [
+    "telegram",
+    "file",
+    "sharing"
+  ],
+  "repository": "https://github.com/ryanjauhari/file_save",
+  "logo": "https://raw.githubusercontent.com/ryanjauhari/gambar/main/ryanid.png",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Bot token anda, dapatkan via @Botfather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "ID Owner Pemilik, muncul di about me kirim pesan",
+      "value": "1250450587"
+    },
+    "APP_ID":{
+      "description": "id aplikasi anda dapatkan via my.telegram.org",
+      "value": ""
+    },
+    "API_HASH":{
+      "description": "api_has anda dapatkan via my.telegram.org",
+      "value": ""
+    },
+    "CHANNEL_ID":{
+      "description": "Buat sebuah db channel, dan tambahkan bot sebagai admin. Kemudian masukan id db channel kesini",
+      "value": "-100"
+    },
+    "FORCE_SUB_CHANNEL":{
+      "description": "Id channel atau grup yang wajib di subs, atau biarkan 0",
+      "value": "0"
+    },
+     "FORCE_SUB_CHANNEL2":{
+      "description": "Id channel atau grup yang wajib di subs ke dua, atau biarkan 0",
+      "value": "0"
+    },
+    "START_MESSAGE": {
+      "description": "Edit pesan Start awal, opsional. Boleh edit boleh nggak.",
+      "value": "Hello {first}\n\nSaya bot file store, bisa menyimpan dokumen via telegram links."
+    },
+    "ADMINS": {
+      "description": "Daftar ID telegram admin yang bisa menjalankan bot, pisahkan dengan koma.",
+      "value": "",
+      "required": false
+    }
+  }
+}
