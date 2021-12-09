@@ -43,7 +43,7 @@
       "value": "Hello {first}\n\nSaya bot file store, bisa menyimpan dokumen via telegram links."
     },
     "ADMINS": {
-      "description": "Daftar ID telegram admin yang bisa menjalankan bot, pisahkan dengan koma.",
+      "description": "Daftar ID telegram admin yang bisa menjalankan bot, pisahkan dengan spasi.",
       "value": "",
       "required": false
     }
